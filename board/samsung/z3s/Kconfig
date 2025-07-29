@@ -1,0 +1,16 @@
+if TARGET_Z3S
+
+config EXYNOS990
+	bool "Exynos990 SoC support"
+	default y
+
+config SYS_BOARD
+	default "z3s"
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_CONFIG_NAME
+	default "z3s"
+
+endif
